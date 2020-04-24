@@ -17,5 +17,7 @@ export class FormComponent implements OnInit {
 
   onClickHandler() {
     this.clickHandler(this.title);
+    
+    this.title = '';
   }
 }
