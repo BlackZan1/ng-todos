@@ -1,0 +1,54 @@
+.todo-navbar {
+    width: 150px;
+    height: 450px;
+    background: #dcdcdc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 500;
+    box-shadow: 1px 1px 7px #a9a9a9;
+
+    .todo-navbar-logo {
+        height: 70px;
+        width: 100%;
+        border-bottom: 4px solid #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 24px;
+    }
+
+    & > ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 140px;
+
+        & > li {
+            color: #fff;
+            font-size: 20px;
+            padding: 5px 17px;
+            transition: all .4s ease;
+            border: 2px solid #DCDCDC;
+            border-radius: 10px;
+            margin: 5px 0;
+            cursor: pointer;
+
+            &:hover {
+                border: 2px solid #fff;
+            }
+        }
+    }
+
+    .todo-navbar-stat {
+        margin-bottom: 30px;
+        text-align: center;
+        color: #a9a9a9;
+        font-size: 18px;
+    }
+}

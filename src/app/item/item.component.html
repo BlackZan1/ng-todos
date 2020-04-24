@@ -1,0 +1,14 @@
+<div class="todo-list-item">
+    <div class="todo-list-item-check" (click)="clickHandler()">
+        <img src="https://chabadpbrome.com/wp-content/uploads/events-manager/success-icon-23192.png" alt="isDone!" *ngIf="item.isDone">
+    </div>
+
+    <p [ngStyle]="{
+        textDecoration: item.isDone ? 'line-through' : '',
+        color: item.isDone ? '#dcdcdc' : '#323232'
+    }">{{ item.title }}</p>
+
+    <button class="todo-list-item-del" (click)="deleteHandler()" *ngIf="item.isDone">
+        X
+    </button>
+</div>

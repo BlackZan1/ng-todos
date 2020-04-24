@@ -1,0 +1,53 @@
+.todo-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 420px;
+    height: 70px;
+    background: #F1F1F1;
+    border-radius: 15px;
+    padding: 0 20px;
+    box-shadow: 1px 1px 7px #a9a9a9;
+
+    & > input {
+        width: 320px;
+        height: 45px;
+        background: #FFFFFF;
+        border-radius: 15px;
+        border: none;
+        text-indent: 15px;
+        font-size: 18px;
+        transition: all .4s ease;
+
+        &:focus {
+            filter: drop-shadow(0.5px 0.5px 3px dodgerblue);
+        }
+    }
+
+    .todo-form-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 42px;
+        color: #000000;
+        font-weight: 500;
+        background: #DCDCDC;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 2.5px solid #a9a9a9;
+        transition: all .4s ease;
+
+        & > span {
+            width: 30px;
+            text-align: center;
+            line-height: 2px;
+            margin: 0 0 10px 0;
+        }
+
+        &:hover {
+            background: #a9a9a9;
+        }
+    }
+}

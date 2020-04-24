@@ -1,0 +1,19 @@
+.todo-main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.todo-list {
+    margin-top: 20px;
+}
+
+.todo-list-empty-p {
+    animation: fadeIn .5s ease;
+    margin-top: 30px; 
+    text-align: center; 
+    font-size: 30px;
+}

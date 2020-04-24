@@ -1,0 +1,15 @@
+<nav class="todo-navbar">
+    <div class="todo-navbar-logo">
+        [{ logo }]
+    </div>
+
+    <ul>
+        <li (click)="clickHandler($event.target.textContent)">All</li>
+        <li (click)="clickHandler($event.target.textContent)">Active</li>
+        <li (click)="clickHandler($event.target.textContent)">Complited</li>
+    </ul>
+
+    <div class="todo-navbar-stat">
+        [{ todos.length }] item left
+    </div>
+</nav>

@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "hacker-news"
+    }
+  },
+  "defaultProject": "hacker-news",
+  "cli": {
+    "analytics": "d2b39c3e-aac2-419b-9802-2ed40da078fc"
+  }
 }
